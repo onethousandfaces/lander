@@ -75,3 +75,7 @@ There may be multiple landers with varying configurations of components with var
 Achievements
 Asteroid shape/size/constraint
 Lander shapes and sizes
+
+### Changes
+
+- Added an example of a gravity test
