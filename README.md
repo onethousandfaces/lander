@@ -1,22 +1,53 @@
-lander
-======
+# Lander  
+
+               .       .                   .       .      .     .      .
+              .    .         .    .            .     ______
+          .           .             .               ////////
+                    .    .   ________   .  .      /////////     .    .
+               .            |.____.  /\        ./////////    .
+        .                 .//      \/  |\     /////////
+           .       .    .//          \ |  \ /////////       .     .   .
+                        ||.    .    .| |  ///////// .     .
+         .    .         ||           | |//`,/////                .
+                 .       \\        ./ //  /  \/   .
+      .                    \\.___./ //\` '   ,_\     .     .
+              .           .     \ //////\ , /   \                 .    .
+                           .    ///////// \|  '  |    .
+          .        .          ///////// .   \ _ /          .
+                            /////////                              .
+                     .   ./////////     .     .
+             .           --------   .                  ..             .
+      .               .        .         .                       .
+                            ________________________
+    ____________------------                        -------------_________
+
+## quickstart
+
+    git submodule update --init
+
+Then open project in unity.
+
+Then use the A and D keys to fly or whatever.
+
+
+## About 
 
 Landing landers on asteroids, QWOP style.
 
-# Conditions
+## Conditions
 
-## Win
+### Win
 
 A successful landing. This may be achieved through skill or luck.
 
-## Lose
+### Lose
 
 * Crash land
 * Bounce off and away
 * Land upside down
 * No landing (miss)
 
-# Lander
+## Lander
 
 A lander consists of the following components:
 
@@ -26,7 +57,7 @@ A lander consists of the following components:
 * Fuel tank (consumed by rocket)
 * A tether
 
-## Forces acting on a lander
+### Forces acting on a lander
 
 * Total mass (body + fuel)
 * Thruster position & strength
@@ -39,7 +70,7 @@ A lander consists of the following components:
 
 There may be multiple landers with varying configurations of components with varying masses, quantities and strengths.
 
-# TODO
+## TODO
 
 Achievements
 Asteroid shape/size/constraint

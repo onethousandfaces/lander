@@ -1,0 +1,3 @@
+[submodule "Assets/unity-packages"]
+	path = Assets/unity-packages
+	url = https://github.com/shadowmint/unity-packages
